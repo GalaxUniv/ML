@@ -49,6 +49,9 @@ predicitons = linear.predict(x_test)
 for x in range(len(predicitons)):
     print(predicitons[x], x_test[x], y_test[x])
 
+acc = linear.score(x_test,y_test)
+print(acc)
+
 p="G2"
 style.use("ggplot")
 pyplot.scatter(data[p],data["G3"])

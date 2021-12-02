@@ -4,4 +4,14 @@ Its my first expirience with Machine Learning and with TensorFlow bellow are som
 <h1>Linear Regresion</h1>
 Follow graphs represend data from here <a href="https://techwithtim.net/wp-content/uploads/2019/01/student-mat.csv">Data</a>
 
+<h2>Prediciton of the Final Grade</h2>
+<img src="https://drive.google.com/file/d/1FDakv1PH2o0MrVQfpXlvqu6OwCOisael/view?usp=sharing"></img>
+<img src="https://drive.google.com/file/d/1orC8ApzAtlcBtnCQns-FHhCWoMFCQU_F/view?usp=sharing"></img>
+<img src="https://drive.google.com/file/d/1PfN8c6Y3qOkaYS7NdYalDZtZTueeiXnp/view?usp=sharing"></img>
+<!-- https://drive.google.com/file/d/1FDakv1PH2o0MrVQfpXlvqu6OwCOisael/view?usp=sharing data -->
+<!-- https://drive.google.com/file/d/1orC8ApzAtlcBtnCQns-FHhCWoMFCQU_F/view?usp=sharing second graph -->
+<!-- https://drive.google.com/file/d/1PfN8c6Y3qOkaYS7NdYalDZtZTueeiXnp/view?usp=sharing first graph -->
 
+
+
+<h3>Prediction of Final Grade </h3>
