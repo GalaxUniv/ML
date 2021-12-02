@@ -5,7 +5,9 @@ Its my first expirience with Machine Learning and with TensorFlow bellow are som
 Follow graphs represend data from here <a href="/Tensor Linear Regresion/student-mat.csv">Data</a>
 
 <h2>Prediciton of the Final Grade</h2>
-<img src="/Assets/Dane.png"></img>
+<div centered>
+    <img src="/Assets/Dane.png"></img>
+</div>
 <img src="/Assets/FirstGrade.png"></img>
 <img src="/Assets/Second Grade.png"></img>
 
