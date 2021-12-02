@@ -2,7 +2,7 @@
 Its my first expirience with Machine Learning and with TensorFlow bellow are some of the result of my work
 
 <h1>Linear Regresion</h1>
-Follow graphs represend data from here <a href="/Tensor Linear Regresion/student-mat.csv">Data</a>
+Follow graphs represend data from  <a href="/Tensor Linear Regresion/student-mat.csv">here</a>
 
 <h2>Prediciton of the Final Grade</h2>
 
@@ -13,6 +13,9 @@ Follow graphs represend data from here <a href="/Tensor Linear Regresion/student
 
 <h3>##Prediction of Final Grade from First Grade</h3>
 <img src="/Assets/FirstGrade.png"></img>
+
+#Looks wierd
 <h4>##Prediction of Final Grade from Second Grade</h4>
 <img src="/Assets/Second Grade.png"></img>
 
+#Looks good
