@@ -6,7 +6,7 @@ Follow graphs represend data from here <a href="https://techwithtim.net/wp-conte
 
 <h2>Prediciton of the Final Grade</h2>
 <img src="/Assets/Dane.png"></img>
-<img src="/Assets/First Grade.png"></img>
+<img src="/Assets/FirstGrade.png"></img>
 <img src="/Assets/Second Grade.png"></img>
 
 
