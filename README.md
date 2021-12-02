@@ -7,6 +7,15 @@ Follow graphs represend data from here <a href="/Tensor Linear Regresion/student
 <h2>Prediciton of the Final Grade</h2>
 <div centered>
     <img src="/Assets/Dane.png"></img>
+    First Value is the Prediciton
+    [
+        -First Grade
+        -Second Grade
+        -Time Study
+        -Failures
+        -absences
+    ]
+    Final Grade
 </div>
 <img src="/Assets/FirstGrade.png"></img>
 <img src="/Assets/Second Grade.png"></img>
