@@ -5,21 +5,14 @@ Its my first expirience with Machine Learning and with TensorFlow bellow are som
 Follow graphs represend data from here <a href="/Tensor Linear Regresion/student-mat.csv">Data</a>
 
 <h2>Prediciton of the Final Grade</h2>
-<div centered>
-    <img src="/Assets/Dane.png"></img>
-    First Value is the Prediciton
-    [
-        -First Grade
-        -Second Grade
-        -Time Study
-        -Failures
-        -absences
-    ]
-    Final Grade
-</div>
+
+|<img src="/Assets/cut.png"></img>|Prediciton|First Grade|Second Grade|Time Study|Failures|Absences|Final Grade|
+| :---:|:---: |:---: |:---: |:---: |:---: |:---: |:---: |
+| <a href="/Assets/Dane.png">Data</a>|12.052|12  |12  |1   |0 |4  |13 |
+
+
+<h3>##Prediction of Final Grade from First Grade</h3>
 <img src="/Assets/FirstGrade.png"></img>
+<h4>##Prediction of Final Grade from Second Grade</h4>
 <img src="/Assets/Second Grade.png"></img>
 
-
-
-<h3>Prediction of Final Grade </h3>
