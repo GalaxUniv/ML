@@ -13,6 +13,9 @@ Follow graphs represend data from here <a href="/Tensor Linear Regresion/student
 
 <h3>##Prediction of Final Grade from First Grade</h3>
 <img src="/Assets/FirstGrade.png"></img>
+
+#Looks wierd
 <h4>##Prediction of Final Grade from Second Grade</h4>
 <img src="/Assets/Second Grade.png"></img>
 
+#Looks good
