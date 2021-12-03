@@ -4,7 +4,8 @@ from sklearn.neighbors import KNeighborsClassifier
 import pandas as pd
 import numpy as np
 from sklearn import linear_model, preprocessing
-
+from matplotlib import style
+import matplotlib.pyplot as pyplot
 #main
 
 data =  pd.read_csv("Tensor K-Nearest Neighbors Algorithm/car.data")
@@ -48,6 +49,34 @@ for z in range(len(predicted)):
 
 print(acc)
 
+#find a way to make a chart
+#style.use("ggplot")
+#pyplot.scatter(data[p],data["G3"])
+#pyplot.xlabel("First grade")
+#pyplot.ylabel("Final Grade")
+#print(y_test)
+#print(predicitons)
+#print("Mean squared error: %.2f" % mean_squared_error(y_test,predicitons))
+#print("Coefficient of determination: %.2f" % r2_score(y_test,predicitons))
+#
+#print(linear.coef_[0] , linear.intercept_)
+#a = linear.coef_[0]
+#b = linear.intercept_
+#
+#pyplot.scatter(x_test, y_test, color="black")
+#
+##pyplot.xticks(())
+##pyplot.yticks(())
+#
+#
+#
+#ax = pyplot.subplot()
+#t = np.arange(0,21,1)   
+#s = ((a*t) + b) # a * range x + b
+#line, = pyplot.plot(t, a*t + b,color="blue", lw=3)
+#
+#
+#pyplot.show()
 
 
 
