@@ -7,6 +7,7 @@ from sklearn.utils import shuffle
 import matplotlib.pyplot as pyplot
 import pickle
 from matplotlib import style
+from sklearn.metrics import mean_squared_error, r2_score
 
 data = pd.read_csv("student-mat.csv", sep=";") #reads data seperator = ;
 
@@ -52,15 +53,26 @@ style.use("ggplot")
 pyplot.scatter(data[p],data["G3"])
 pyplot.xlabel("First grade")
 pyplot.ylabel("Final Grade")
+print(y_test)
+print(predicitons)
+print("Mean squared error: %.2f" % mean_squared_error(y_test,predicitons))
+print("Coefficient of determination: %.2f" % r2_score(y_test,predicitons))
 
 print(linear.coef_[0] , linear.intercept_)
 a = linear.coef_[0]
 b = linear.intercept_
 
+pyplot.scatter(x_test, y_test, color="black")
+
+#pyplot.xticks(())
+#pyplot.yticks(())
+
+
+
 ax = pyplot.subplot()
 t = np.arange(0,21,1)   
 s = ((a*t) + b) # a * range x + b
-line, = pyplot.plot(t, a*t + b, lw=2)
+line, = pyplot.plot(t, a*t + b,color="blue", lw=3)
 
 
 pyplot.show()

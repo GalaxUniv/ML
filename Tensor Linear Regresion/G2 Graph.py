@@ -57,10 +57,13 @@ print(linear.coef_[0] , linear.intercept_)
 a = linear.coef_[0]
 b = linear.intercept_
 
+pyplot.scatter(x_test, y_test, color="black")
+
+
 ax = pyplot.subplot()
 t = np.arange(0,21,1)   
 s = ((a*t) + b) # a * range x + b
-line, = pyplot.plot(t, a*t + b, lw=2)
+line, = pyplot.plot(t, a*t + b,color="blue", lw=3)
 
 
 pyplot.show()
