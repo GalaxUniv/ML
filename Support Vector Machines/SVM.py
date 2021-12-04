@@ -18,10 +18,8 @@ Y = cancer.target
 
 x_train, x_test,y_train,y_test = sklearn.model_selection.train_test_split(X,Y, test_size = 0.2)
 
-# print(x_train)
-# print(y_train)
 
-classes = ['malignant' 'benign']
+classes = ['malignant','benign']
 
 clf = svm.SVC(kernel="linear", C=1)
 
@@ -31,8 +29,6 @@ y_pred = clf.predict(x_test)
 
 acc = metrics.accuracy_score(y_test,y_pred)
 
-#print(y_pred) # prediction
-#print(y_test) # test anmsw data
-print(x_test)
+for z in range(len(y_pred)):
+    print("Predicted:",classes[y_pred[z]] ,"Data ", x_test[z],"Actual ",classes[y_test[z]])
 
-#find a way to print a chart
