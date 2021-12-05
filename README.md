@@ -1,12 +1,13 @@
 # Machine Learning with TensorFlow
 Its my first expirience with Machine Learning and with TensorFlow bellow are some of the result of my work
 
-- TensorFlow
-- [x] <a href="/Tensor Linear Regresion/readme.md">Linear Regresion</a>
-- [x] <a href="/Tensor Nearest Neighbors/readme.md">K Nearest Neighbors</a>  #No Graph Yet
-- [x] <a href="/Tensor Support vector machine/readme.md">Support vector machine</a>
+- [x] <a href="/Tensor Linear Regresion/README.md">Linear Regresion</a>
+- [x] <a href="/Tensor K-Nearest Neighbors/README.md">K Nearest Neighbors</a>  #No Graph Yet
+- [x] <a href="/Tensor Support Vector Machines/README.md">Support Vector Machines</a>
 - [ ] K Means Clustering Work
-- Wichout TensorFlow
+
+# Machine Learning wichout TensorFlow
+
 - [ ] Linear Regresion
 - [ ] K Nearest Neighbors
 - [ ] Support Vector Machine
