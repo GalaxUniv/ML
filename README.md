@@ -8,7 +8,7 @@ Its my first expirience with Machine Learning and with TensorFlow bellow are som
 
 # Machine Learning wichout TensorFlow
 
-- [ ] Linear Regresion
+- [ ] <a href="/Linear Regresion">Linear Regresion</a>
 - [ ] K Nearest Neighbors
 - [ ] Support Vector Machine
 - [ ] K Means Clustering Work
